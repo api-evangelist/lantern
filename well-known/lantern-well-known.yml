@@ -1,0 +1,31 @@
+generated: '2026-07-19'
+method: searched
+source: live probes of the Lantern public hosts
+note: >-
+  No /.well-known/ discovery documents are published on any Lantern host. All
+  probes returned 404 (or a redirect to the member portal). Recorded as a
+  negative result; no WellKnown or SecurityTxt pointer is wired into apis.yml
+  because nothing is present.
+hosts:
+- host: https://lanterncare.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /llms.txt
+    status: 404
+- host: https://my.lanterncare.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 301
+    redirect: https://mysurgery.lanterncare.com/
+  - path: /.well-known/openid-configuration
+    status: 301
+    redirect: https://mysurgery.lanterncare.com/

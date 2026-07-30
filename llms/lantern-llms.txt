@@ -1,0 +1,50 @@
+# Lantern
+
+> Lantern (legal entity Employer Direct Healthcare, LLC dba Lantern Specialty Care) is a US specialty care platform that connects members with high-quality, lower-cost care for surgery, cancer and infusion therapy. Founded in 2011 as SurgeryPlus, it serves employers, public-sector employers, labor union trusts, health plans and benefits consultants through a hand-selected "Network of Excellence" of specialists plus dedicated care teams that navigate members through a treatment journey.
+
+Lantern does not publish a public developer program, API documentation, OpenAPI/AsyncAPI specification, SDKs, CLI, MCP server, or /.well-known/ discovery surface. This file was generated from the API Evangelist catalog entry for Lantern, not fetched from the provider.
+
+## Company
+- [Website](https://lanterncare.com/): Lantern specialty care platform
+- [About Lantern](https://lanterncare.com/about-us/): history, mission, leadership
+- [Specialty Care Platform](https://lanterncare.com/specialty-care-platform/): the platform overview
+- [Press](https://lanterncare.com/press/): company news and announcements
+- [Careers](https://lanterncare.com/about-us/careers/): open roles
+
+## Solutions
+- [Surgery](https://lanterncare.com/solutions-for-employers/surgery/): surgical benefit for employers
+- [Cancer](https://lanterncare.com/solutions-for-employers/cancer/): cancer care solution
+- [Infusions](https://lanterncare.com/solutions-for-employers/infusions/): infusion therapy solution
+- [Employers](https://lanterncare.com/employers/): employer buyer segment
+- [Public Sector](https://lanterncare.com/public-sector/): public-sector employers
+- [Labor Union Trust](https://lanterncare.com/labor-union-trust/): union trust segment
+- [Health Plans](https://lanterncare.com/health-plans/): health-plan partners
+- [Benefits Consultants](https://lanterncare.com/benefits-consultants/): consultant channel
+
+## Members
+- [For Members](https://lanterncare.com/for-members/): member experience
+- [Surgery Journeys](https://lanterncare.com/for-members/surgery-journeys/)
+- [Cancer Journeys](https://lanterncare.com/for-members/cancer-journeys/)
+- [Infusion Journeys](https://lanterncare.com/for-members/infusion-journeys/)
+- [Member Login](https://my.lanterncare.com/): member portal (redirects to mysurgery.lanterncare.com)
+
+## Content
+- [Blog](https://lanterncare.com/blog/): company blog
+- [Blog RSS](https://lanterncare.com/blog/feed/): RSS feed
+- [Case Studies](https://lanterncare.com/resources-category/case-studies/)
+- [Guides](https://lanterncare.com/resources-category/guides/)
+- [Webinars](https://lanterncare.com/resources-category/webinars/)
+- [Podcast](https://lanterncare.com/podcast/)
+
+## Trust and legal
+- [Trust Center](https://app.vendorpedia.com/trustprofileshare/trust-profile-shares/f8a2c7ba-e865-49eb-a023-b73951b31848): OneTrust Vendorpedia trust profile
+- [Privacy Policy](https://lanterncare.com/privacy-policy/): privacy contact privacy@lanterncare.com
+- [Terms of Use](https://lanterncare.com/terms-of-use/)
+- [Accessibility Notice](https://lanterncare.com/accessibility-notice/)
+- [Contact](https://lanterncare.com/contact-us/)
+
+## API Evangelist artifacts
+- [APIs.json](https://raw.githubusercontent.com/api-evangelist/lantern/refs/heads/main/apis.yml): catalog entry
+- [Domain security](https://raw.githubusercontent.com/api-evangelist/lantern/refs/heads/main/security/lantern-domain-security.yml): probed TLS/HSTS/SPF/DMARC posture
+- [Trust center](https://raw.githubusercontent.com/api-evangelist/lantern/refs/heads/main/security/lantern-trust-center.yml)
+- [Well-known probe](https://raw.githubusercontent.com/api-evangelist/lantern/refs/heads/main/well-known/lantern-well-known.yml): all discovery paths 404

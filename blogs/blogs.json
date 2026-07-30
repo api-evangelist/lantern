@@ -1,0 +1,35 @@
+{
+  "repo": "lantern",
+  "feeds": [
+    {
+      "source": "https://lanterncare.com/about-us/feed/",
+      "feed_url": "https://lanterncare.com/about-us/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://lanterncare.com/blog/feed/",
+      "feed_url": "https://lanterncare.com/blog/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://lanterncare.com/about-us/",
+      "feed_url": "https://lanterncare.com/about-us/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    },
+    {
+      "source": "https://lanterncare.com/blog/",
+      "feed_url": "https://lanterncare.com/blog/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 3,
+  "fetched": "2026-07-25T15:00:33Z"
+}

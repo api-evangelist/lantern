@@ -1,0 +1,23 @@
+generated: '2026-07-19'
+method: searched
+probe: true
+source: https://lanterncare.com/ (footer link labelled "Trust Center")
+url: https://app.vendorpedia.com/trustprofileshare/trust-profile-shares/f8a2c7ba-e865-49eb-a023-b73951b31848
+platform: OneTrust Vendorpedia trust profile share
+certifications: []
+notes: >-
+  Lantern publishes a Trust Center in the site footer as a OneTrust Vendorpedia
+  trust-profile share link. The profile itself renders client-side and gated
+  behind the share view, so no named certifications (SOC 2, ISO 27001, HITRUST,
+  HIPAA attestation) could be verified from the public HTML. Certifications are
+  intentionally left empty rather than assumed; no `Compliance` pointer is
+  emitted until named certifications are confirmed.
+evidence:
+- source: https://lanterncare.com/
+  kind: footer-link
+  label: Trust Center
+  status: 200
+- source: https://app.vendorpedia.com/trustprofileshare/trust-profile-shares/f8a2c7ba-e865-49eb-a023-b73951b31848
+  kind: trust-profile
+  status: 200
+  extracted_certifications: none (JavaScript-rendered)
