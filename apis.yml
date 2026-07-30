@@ -1,21 +1,47 @@
 aid: lantern
 name: Lantern
-description: 'Lantern is a company surfaced as a portfolio company of insight-partners and added to the
-  API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Lantern (legal entity Employer Direct Healthcare, LLC dba Lantern Specialty Care) is a US specialty
+  care platform that connects members with high-quality, lower-cost care for surgery, cancer and
+  infusion therapy — the complex, high-cost episodes that account for roughly half of healthcare
+  spending. Founded in 2011 as SurgeryPlus and later expanded into cancer and infusion care, Lantern
+  sells to employers, public-sector employers, labor union trusts, health plans and benefits
+  consultants, pairing a hand-selected "Network of Excellence" of specialists with dedicated care
+  teams that navigate a member end to end through a treatment journey. Lantern is backed by Insight
+  Partners. As of this enrichment pass Lantern publishes no public developer program, API
+  documentation, machine-readable specification, SDKs or discovery surface — this profile captures
+  its public company, trust and security posture only.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://lanterncare.com/wp-content/uploads/2025/03/Site-Image.jpg
 url: https://raw.githubusercontent.com/api-evangelist/lantern/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - insight-partners
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-public-api-surface
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Healthcare
+- Health Benefits
+- Specialty Care
+- Surgery
+- Oncology
+- Employee Benefits
+- Care Navigation
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +51,34 @@ maintainers:
 common:
 - type: Website
   url: https://lanterncare.com/
+- type: About
+  url: https://lanterncare.com/about-us/
+- type: Blog
+  url: https://lanterncare.com/blog/
+- type: BlogRSS
+  url: https://lanterncare.com/blog/feed/
+- type: Press
+  url: https://lanterncare.com/press/
+- type: Support
+  url: https://lanterncare.com/contact-us/
+- type: Login
+  url: https://my.lanterncare.com/
+- type: Careers
+  url: https://lanterncare.com/about-us/careers/
+- type: TermsOfService
+  url: https://lanterncare.com/terms-of-use/
+- type: PrivacyPolicy
+  url: https://lanterncare.com/privacy-policy/
+- type: TrustCenter
+  url: security/lantern-trust-center.yml
+- type: GitHubOrganization
+  url: https://github.com/LanternCare
+- type: DomainSecurity
+  url: security/lantern-domain-security.yml
+- type: LLMsTxt
+  url: llms/lantern-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
